@@ -1,0 +1,1 @@
+console.log("EU TENHO CANCER DE SUVACO")
