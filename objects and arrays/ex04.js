@@ -1,7 +1,6 @@
 const prompt = require ('prompt-sync') ({sigint: true});
 
 let senhas = [];
-
 while (true){
     let senha = prompt("Digite uma senha: ")
 
