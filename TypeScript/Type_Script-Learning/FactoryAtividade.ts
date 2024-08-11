@@ -21,6 +21,8 @@ class RelatorioFactory{
                 return new PDFRelatorio
             case 'Excel':
                 return new ExcelRelatorio
+            default:
+                throw new Error(`Tipo de relatório desconhecido: ${type}`);
         }
     }
 }

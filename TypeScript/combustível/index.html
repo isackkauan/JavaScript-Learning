@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Preço do combustível</h2>
+    <label for="precoCombustivel">Insira o preço do combustível:</label>
+    <input type="text" id="precoCombustivel" name="precoCombustivel">
+
+    <h2>Consumo do veículo</h2>
+    <label for="consumoVeiculo">Insira o consumo do veículo (km/l):</label>
+    <input type="text" id="consumoVeiculo" name="consumoVeiculo">
+
+    <h2>Distância a ser percorrida</h2>
+    <label for="distancia">Insira a distância a ser percorrida (km):</label>
+    <input type="text" id="distancia" name="distancia"> <br>
+
+    <label for="combustivel">Escolha o tipo de combustível:</label>
+    <select id="combustivel" name="combustivel">
+        <option value="alcool">Álcool</option>
+        <option value="gasolina">Gasolina</option>
+    </select>
+
+    <button id="calcular">Calcular</button>
+
+    <div id="resultado">
+        <h2>Resultado do Cálculo</h2>
+        <p>O custo estimado da viagem é: <mark id="custoViagem"></mark></p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
